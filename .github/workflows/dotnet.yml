@@ -1,0 +1,32 @@
+name: .NET Core Build
+
+on:
+  push:
+    branches:
+      - master  # o main, según tu configuración
+  pull_request:
+    branches:
+      - master  # o main, según tu configuración
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Puedes usar otro sistema si lo prefieres
+
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '5.0'  # Cambia la versión de .NET si es necesario
+
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --configuration Release
+
+    - name: Run tests
+      run: dotnet test --configuration Release
+
