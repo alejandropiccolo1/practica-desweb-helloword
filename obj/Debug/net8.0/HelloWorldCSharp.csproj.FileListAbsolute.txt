@@ -1,0 +1,15 @@
+C:\Users\aleep\HelloWorldCSharp\bin\Debug\net8.0\HelloWorldCSharp.exe
+C:\Users\aleep\HelloWorldCSharp\bin\Debug\net8.0\HelloWorldCSharp.deps.json
+C:\Users\aleep\HelloWorldCSharp\bin\Debug\net8.0\HelloWorldCSharp.runtimeconfig.json
+C:\Users\aleep\HelloWorldCSharp\bin\Debug\net8.0\HelloWorldCSharp.dll
+C:\Users\aleep\HelloWorldCSharp\bin\Debug\net8.0\HelloWorldCSharp.pdb
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.AssemblyInfoInputs.cache
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.AssemblyInfo.cs
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.csproj.CoreCompileInputs.cache
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.sourcelink.json
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.dll
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\refint\HelloWorldCSharp.dll
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.pdb
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\HelloWorldCSharp.genruntimeconfig.cache
+C:\Users\aleep\HelloWorldCSharp\obj\Debug\net8.0\ref\HelloWorldCSharp.dll
