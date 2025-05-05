@@ -3,20 +3,20 @@ name: .NET Core CI
 on:
   push:
     branches:
-      - main  # O 'master' dependiendo de la rama principal de tu repositorio
+      - main
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Puedes cambiar esto a 'windows-latest' si prefieres usar Windows
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Check out code
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: '5.0'  # O la versión de .NET que estás utilizando
+          dotnet-version: '5.0'  # Cambia esto si usas otra versión
 
       - name: Restore dependencies
         run: dotnet restore
@@ -26,6 +26,3 @@ jobs:
 
       - name: Run tests
         run: dotnet test
-
-      - name: Run the app (Hello World)
-        run: dotnet run
